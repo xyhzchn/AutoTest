@@ -1,0 +1,30 @@
+[
+  {
+    "description":"获取cookies信息",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true",
+        "status":"10000"
+      },
+      "text":"cookies get successful"
+    }
+  },
+  {
+    "description":"有cookies的get请求",
+    "request":{
+      "uri":"/getWithCookies",
+      "method":"get",
+      "cookies":{
+        "login":"true",
+        "status":"10000"
+      }
+    },
+    "response":{
+      "text":"moco first get with cookies"
+    }
+  }
+]

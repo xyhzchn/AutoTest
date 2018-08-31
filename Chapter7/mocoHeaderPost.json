@@ -1,0 +1,26 @@
+[
+  {
+    "description":"有headers的post请求",
+    "request":{
+      "uri":"/post/with/headers",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "username":"huhansna",
+        "userpswd":{
+          "pswd1":"111111",
+          "pswd2":"123456"
+        }
+      }
+    }
+  }
+]

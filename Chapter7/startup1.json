@@ -1,0 +1,11 @@
+[
+  {
+    "description":"描述信息",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"moco的第一个demo"
+    }
+  }
+]

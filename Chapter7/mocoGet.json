@@ -1,0 +1,26 @@
+[
+  {
+    "description":"描述信息",
+    "request":{
+      "uri":"/getDemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"moco first demo no param"
+    }
+  },
+  {
+    "description":"有参数的get请求",
+    "request":{
+      "uri":"/getWithParam",
+      "method":"get",
+      "queries":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"moco first demo with param"
+    }
+  }
+]

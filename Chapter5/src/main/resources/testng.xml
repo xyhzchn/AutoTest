@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test">
+    <!--<test name="login">-->
+        <!--<classes>-->
+            <!--<class name="com.yoozoo.testng.suite.SuiteConfig"/>-->
+            <!--<class name="com.yoozoo.testng.suite.Login"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="pay">-->
+        <!--<classes>-->
+            <!--<class name="com.yoozoo.testng.suite.SuiteConfig"/>-->
+            <!--<class name="com.yoozoo.testng.suite.Pay"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="pay">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="teacher"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.yoozoo.testng.groups.groupsOnClass1"/>-->
+            <!--<class name="com.yoozoo.testng.groups.groupsOnClass2"/>-->
+            <!--<class name="com.yoozoo.testng.groups.groupsOnClass3"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <test name="pay">
+        <classes>
+            <parameter name="name" value="张三"/>
+            <parameter name="age" value="10"/>
+            <class name="com.yoozoo.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>
