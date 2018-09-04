@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TmpSuite]">
+  <test name="TmpTest(failed)">
+    <classes>
+      <class name="com.yoozoo.testng.demo.MyClass">
+        <methods>
+          <include name="test4"/>
+          <include name="test2"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.yoozoo.testng.demo.MyClass -->
+    </classes>
+  </test> <!-- TmpTest(failed) -->
+</suite> <!-- Failed suite [TmpSuite] -->

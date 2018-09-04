@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default Suite">
+
+    <test name="Testng_learn" >
+
+        <classes>
+            <class name="ReRunFailedTestCaseDemo"/>
+        </classes>
+
+    </test>
+</suite>
